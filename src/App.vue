@@ -55,8 +55,6 @@ export default {
     HorizontalDivider,
     Contact,
     Hero,
-    Skills,
-    Art,
     Code,
     ColophonMusic,
     Footer,

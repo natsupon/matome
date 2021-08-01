@@ -32,22 +32,22 @@ export default {
     return {
       cards: [
         {
-          title: "Notifier",
-          emoji: "📢",
-          description: "A bot using JavaScript that sends messages FCM messages via Discord.",
-          link: "https://github.com/GDGVIT/Notifier-Bot",
+          title: "github",
+          emoji: "🐱",
+          description: "My github page",
+          link: "https://github.com/natsupon",
         },
         {
-          title: "Vitty",
-          emoji: "⏰",
-          description: "Reminds you to for classes, so that you never have to miss one again.",
-          link: "https://github.com/GDGVIT/vitty-backend",
+          title: "Qiita",
+          emoji: "✎",
+          description: "勉強メモ",
+          link: "https://qiita.com/naccchan",
         },
         {
-          title: "Portfolio Website",
-          emoji: "🙋‍♂️",
-          description: "My Portfolio website made in Vue.js",
-          link: "https://visheshbansal.ml/gh/Portfolio-Website",
+          title: "Note",
+          emoji: "📓",
+          description: "About me",
+          link: "https://note.com/natsumin_723/",
         },
       ],
     };

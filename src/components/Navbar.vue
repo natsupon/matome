@@ -1,47 +1,29 @@
 <template>
   <nav>
     <div class="name" id="name">
-      <h1>Vishesh Bansal</h1>
+      <h1>Natsumi Arai</h1>
     </div>
     <ul>
       <a
-          href="https://github.com/VisheshBansal"
+          href="https://github.com/natsupon"
           target="_blank"
           rel="noopener noreferrer"
       >
         <li><i class="fab fa-github fa-lg"></i></li>
       </a>
       <a
-          href="https://kaggle.com/bansalvishesh"
+          href="https://www.kaggle.com/natsumiarai"
           target="_blank"
           rel="noopener noreferrer"
       >
         <li><i class="fab fa-kaggle fa-lg"></i></li>
       </a>
       <a
-          href="https://medium.com/visheshbansal"
+          href="https://twitter.com/natsumin_0813"
           target="_blank"
           rel="noopener noreferrer"
       >
-        <li><i class="fab fa-medium fa-lg"></i></li>
-      </a>
-      <a
-          href="https://www.behance.net/visheshbansal"
-          target="_blank"
-          rel="noopener noreferrer"
-      >
-        <li>
-          <i class="fab fa-behance fa-lg"></i>
-        </li>
-      </a>
-      <a
-          href="https://www.linkedin.com/in/bansalvishesh"
-          target="_blank"
-          rel="noopener noreferrer"
-      >
-        <li class="last">
-          <i class="fab fa-linkedin fa-lg"></i>
-        </li>
+        <li><i class="fab fa-twitter fa-lg"></i></li>
       </a>
     </ul>
   </nav>

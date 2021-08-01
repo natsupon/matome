@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Music</h1>
-    <p>My most recently played tracks on Spotify are:</p>
+    <p>好きなアーティスト:</p>
     <ul>
       <li>
         {{ song1 }} —

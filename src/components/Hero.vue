@@ -1,17 +1,17 @@
 <template>
   <div class="hero">
     <div class="image-holder">
-      <img src="../assets/me.png" alt="Image of Vishesh Bansal"/>
+      <img src="../assets/me.png" alt="Image of Natsumi Arai"/>
     </div>
     <div class="text">
       <div class="top-text">
         <h1>
-          Hi, I'm Vishesh! 👋
+          Hi, I'm Natsumi Arai! 🐍
         </h1>
         <h2>
-          I'm a
+          私は
           <span><vue-typer
-              :text='["Developer","Designer","ML Enthusiast","CyberSec Enthusiast"]'
+              :text='["元SE"]'
               :repeat='Infinity'
               :shuffle='false'
               initial-action='typing'
@@ -22,48 +22,20 @@
               erase-style='select-all'
               :erase-on-complete='false'
               caret-animation='blink'
-          ></vue-typer></span> from Gurgaon.
+          ></vue-typer></span> です。日本コンピュータシステムに所属していました。.
         </h2>
       </div>
       <div class="bottom-text">
         <p class="b-margin">
-          I'm a sophomore CS student at <a
+          出身大学は <a
             target="_blank"
             rel="noopener noreferrer"
             class="green"
             href="https://vit.ac.in"
-        >Vellore Institute of Technology</a
-        >, an alumni of <a
-            target="_blank"
-            rel="noopener noreferrer"
-            class="green"
-            href="https://dpsgurgaon.org"
-        >Delhi Public School, Gurgaon</a> I'm a Cyber Security and Machine Learning Enthusiast with experience in
-          Frontend Development.
-        </p>
-        <p class="b-margin">
-          I also love digital art. I am learning <span class="green-text">UI/UX</span> designing
-          using Figma. Other tools which I use are Adobe Photoshop and Illustrator. I am an avid book reader and music
-          listener.
-        </p>
-        <p>
-          My favourite colour
-          is <span class="color">#7CFC06</span>.
-        </p>
-      </div>
-      <div class="contact">
-        <a href="#contact">
-          <div class="contact-me">Contact Me</div>
-        </a>
+        >工学院大学工学部第一部電気システム工学科</a
+        >, です。
       </div>
       <br>
-      <p class="center"> View some of my projects <a
-          rel="noopener noreferrer"
-          class="green"
-          href="#projects" style="margin-left:1px;margin-right:1px;"
-      >here</a
-      >.
-      </p>
     </div>
   </div>
 </template>
