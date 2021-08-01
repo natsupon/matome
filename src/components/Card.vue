@@ -26,13 +26,13 @@ export default {
 
 <style scoped>
 .card {
-  background-color: #1b405e;
+  background-color: #a9ac9c;
   border-radius: 8px;
   padding: 0.5rem 1rem;
 }
 
 .card:hover {
-  background-color: #18D26E;
+  background-color: #dad0c7;
   transition: background-color 0.2s ease;
   cursor: pointer;
 }

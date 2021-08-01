@@ -1,16 +1,13 @@
 <template>
   <div>
     <p>
-      "No one is you and that is your power."
+      "May the Force be with you."
     </p>
     <div class="row">
-      <p class="italic">
-        — Dave Grohl
-      </p>
       <p class="top" @click="scrollToTop">Go to top</p>
     </div>
     <p class="align-center">
-      Made with <i class="fa fa-heart" aria-hidden="true"></i> by Vishesh Bansal
+      Made with <i class="fa fa-heart" aria-hidden="true"></i> by Natsumi Arai
     </p>
     <p class="align-center-copy">
       Copyright &copy;{{ new Date().getFullYear() }}</p>
@@ -74,7 +71,7 @@ p {
 
 .fa-heart {
   margin: 0 5px;
-  color: lawngreen;
+  color: #697470;
 }
 
 .fa-heart:hover {
@@ -87,7 +84,7 @@ p {
 @media screen and (max-width: 800px) {
   .top {
     visibility: visible;
-    color: lawngreen;
+    color: #a9ac9c;
   }
 }
 

@@ -53,7 +53,7 @@ nav {
   margin: 0 0 0 0;
   font-size: 1.8rem;
   font-weight: 600;
-  border-bottom: 6px solid #18D26E;
+  border-bottom: 6px solid #cfc5c5;
   line-height: 0.4;
 }
 
@@ -71,12 +71,12 @@ li {
   border-radius: 8px;
   justify-content: center;
   align-items: center;
-  background-color: #1b405e;
+  background-color: #a9ac9c;
   transition: all ease 0.2s;
 }
 
 li:hover {
-  background-color: #18D26E;
+  background-color: #dad0c7;
   transform: translateY(-5px);
   transition: all ease 0.2s;
 }
@@ -100,7 +100,9 @@ li:hover {
 .fa-behance {
   color: #fff;
 }
-
+.fa-twitter {
+  color: #fff;
+}
 @media screen and (max-width: 1250px) {
   nav {
     flex-direction: column;

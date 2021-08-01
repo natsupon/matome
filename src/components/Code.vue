@@ -1,12 +1,8 @@
 <template>
   <div>
     <div class="row">
-      <h1>Projects</h1>
-      <div>
-        <button v-on:click="expandDiv">
-          <i id="chevron" class="fas fa-chevron-down fa-lg"></i>
-        </button>
-      </div>
+      <h1>Linkes</h1>
+
     </div>
 
     <div class="cards">
@@ -123,20 +119,10 @@ h1 {
   font-weight: 500;
   color: white;
   font-size: 1.8rem;
-  border-bottom: 10px solid green;
+  border-bottom: 10px solid #dad0c7;
   line-height: 0.4;
   width: 40px;
   transition: all ease 0.3s;
-}
-
-h1:hover {
-  font-size: 1.8rem;
-  font-weight: 500;
-  color: white;
-  border-bottom: 10px solid #1DB954;
-  line-height: 0.4;
-  width: 100px;
-  transition: 0.5s;
 }
 
 .row {
@@ -153,11 +139,11 @@ svg {
   border: none;
   padding: 10px;
   border-radius: 8px;
-  background-color: #1b405e;
+  background-color: #a9ac9c;
 }
 
 .row button:hover {
-  background-color: #15334b;
+  background-color: #a9ac9c;
   transition: background-color ease 0.2s;
   cursor: pointer;
 }

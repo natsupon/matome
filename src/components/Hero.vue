@@ -9,20 +9,7 @@
           Hi, I'm Natsumi Arai! 🐍
         </h1>
         <h2>
-          私は
-          <span><vue-typer
-              :text='["元SE"]'
-              :repeat='Infinity'
-              :shuffle='false'
-              initial-action='typing'
-              :pre-type-delay='70'
-              :type-delay='70'
-              :pre-erase-delay='2000'
-              :erase-delay='250'
-              erase-style='select-all'
-              :erase-on-complete='false'
-              caret-animation='blink'
-          ></vue-typer></span> です。日本コンピュータシステムに所属していました。.
+          元SE、前職日本コンピュータシステム株式会社
         </h2>
       </div>
       <div class="bottom-text">
@@ -30,11 +17,11 @@
           出身大学は <a
             target="_blank"
             rel="noopener noreferrer"
-            class="green"
-            href="https://vit.ac.in"
+            class="pink"
+            href="http://www.ns.kogakuin.ac.jp/~wwc1001/"
         >工学院大学工学部第一部電気システム工学科</a
-        >, です。
-      </div>
+        >です。</p>
+       </div>
       <br>
     </div>
   </div>
@@ -54,7 +41,7 @@ export default {
 <style scoped>
 .color {
   /* border-bottom: 4px solid #1da7ea; */
-  color: lawngreen;
+  color: #ffa89f;
 }
 
 ul {
@@ -71,38 +58,30 @@ li {
   border-radius: 8px;
   justify-content: center;
   align-items: center;
-  background-color: #1b405e;
+  background-color: #ffa89f;
   transition: all ease 0.2s;
 }
 
 li:hover {
-  background-color: #18D26E;
+  background-color: #ffa89f;
   transform: translateY(-5px);
   transition: all ease 0.2s;
 }
 
 ::v-deep .typed {
-  color: lawngreen !important;
+  color: #ffa89f !important;
 }
 
 ::v-deep .custom.caret {
-  background-color: green !important;
+  background-color: #ffa89f !important;
 }
 
 .fa-twitter {
   color: #fff;
 }
 
-.fa-instagram {
-  color: #fff;
-}
-
-.fa-facebook {
-  color: #fff;
-}
-
-.green {
-  color: #18D26E;
+.pink {
+  color: #254a55;
   text-decoration: none;
   font-weight: bolder;
   margin: 5px;
@@ -113,8 +92,8 @@ li:hover {
   color: lawngreen;
 }
 
-.green:hover {
-  color: lawngreen;
+.pink:hover {
+  color: #697470;
   text-decoration: none;
   font-weight: bolder;
   margin: 5px;
@@ -154,27 +133,6 @@ img {
 
 a {
   text-decoration: none;
-}
-
-.contact {
-  margin-top: 2rem;
-}
-
-.contact-me {
-  font-size: 1.1rem;
-  font-weight: 500;
-  background-color: #18D26E;
-  color: white;
-  border-radius: 8px;
-  text-align: center;
-  padding: 10px;
-  vertical-align: center;
-  transition: all ease 0.3s;
-}
-
-.contact-me:hover {
-  transform: translateY(-5px);
-  transition: all ease 0.2s;
 }
 
 h1,

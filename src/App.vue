@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <cursor-fx color="lawngreen"></cursor-fx>
+    <cursor-fx color="#ffa89f"color-hover="#ffa89f"></cursor-fx>
     <div class="home">
       <div>
         <button class="scroll-top" v-on:click="scrollToTop">
@@ -10,26 +10,8 @@
       <Navbar></Navbar>
       <HorizontalDivider></HorizontalDivider>
       <Hero></Hero>
-      <HorizontalDivider></HorizontalDivider>
-      <Skills></Skills>
-      <HorizontalDivider></HorizontalDivider>
-      <a name="projects"></a>
       <Code></Code>
-      <HorizontalDivider></HorizontalDivider>
-      <h1 class="art">Design</h1>
-
-      <div class="art-container">
-        <Art
-            v-for="project in projects"
-            :project="project"
-            :key="project"
-        ></Art>
       </div>
-      <HorizontalDivider></HorizontalDivider>
-      <ColophonMusic></ColophonMusic>
-      <HorizontalDivider></HorizontalDivider>
-      <a name="contact"></a>
-      <Contact></Contact>
       <HorizontalDivider></HorizontalDivider>
       <Footer></Footer>
     </div>
@@ -41,11 +23,7 @@
 import Navbar from "./components/Navbar.vue";
 import HorizontalDivider from "./components/HorizontalDivider.vue";
 import Hero from "./components/Hero.vue";
-import Skills from "./components/Skills.vue";
-import Art from "./components/Art.vue";
-import Contact from "./components/Contact.vue";
 import Code from "./components/Code.vue";
-import ColophonMusic from "./components/ColophonMusic.vue";
 import Footer from "./components/Footer.vue";
 
 export default {
@@ -55,8 +33,7 @@ export default {
     HorizontalDivider,
     Hero,
     Code,
-    ColophonMusic,
-    Footer,
+    Footer
   },
   data() {
     return {
@@ -110,7 +87,7 @@ html {
 }
 
 body {
-  background-color: #1a202c;
+  background-color: #a7adb1;
   font-family: "canada-type-gibson";
   overflow-x:hidden;
 }
@@ -121,26 +98,26 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2c3649;
+  background: #a7adb1;
   border-radius: 0.5rem;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #1DB954;
+  background: #cfc5c5;
   border-radius: 0.5rem;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: lawngreen;
+  background: #cfc5c5;
 }
 
 .scroll-top {
   position: fixed;
   bottom: 15%;
   left: 85%;
-  background-color: #1DB954;
+  background-color: #cfc5c5;
   border: none;
   margin-left: 2rem;
   padding: 10px;
@@ -163,20 +140,11 @@ body {
   margin: 2rem auto;
 }
 
-.art-container {
-  display: flex;
-  overflow-x: scroll;
-  /* -ms-overflow-style: none;  */
-  /* scrollbar-width: none; */
-  padding: 10px 0;
-  height: min-content;
-}
-
 .art {
   font-weight: 500;
   color: white;
   font-size: 1.8rem;
-  border-bottom: 10px solid green;
+  border-bottom: 10px solid #cfc5c5;
   line-height: 0.4;
   width: 40px;
   transition: all ease 0.3s;
@@ -186,7 +154,7 @@ body {
   font-size: 1.8rem;
   font-weight: 500;
   color: white;
-  border-bottom: 10px solid #1DB954;
+  border-bottom: 10px solid #cfc5c5;
   line-height: 0.4;
   width: 90px;
   transition: 0.5s;
