@@ -53,7 +53,6 @@ export default {
   components: {
     Navbar,
     HorizontalDivider,
-    Contact,
     Hero,
     Code,
     ColophonMusic,
@@ -68,7 +67,7 @@ export default {
     // This will break one day
     // TODO: Use own API key
     const url =
-        "https://www.behance.net/v2/users/visheshbansal/projects?client_id=ZLBxK9rEfHwJf9K0rmseNr2fS2gS2HJW";
+        "https://natsumi-portfolio.herokuapp.com/";
     $.ajax({
       url: url,
       type: "get",
