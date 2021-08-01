@@ -1,7 +1,9 @@
 {
   "name": "portfolio",
   "author": "",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "vue-cli-service serve",
@@ -24,7 +26,7 @@
     "vue-scrollto": "^2.18.2",
     "vue-typer": "^1.2.0",
     "vuejs-paginate": "^2.1.0",
-    "core-js": "^3.6.5"    
+    "core-js": "^3.6.5"
   },
   "devDependencies": {
     "@cloudflare/wrangler": "^1.18.0",
